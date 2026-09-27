@@ -16,8 +16,10 @@ class Enrollment:
         print("\n------ Enrollment Details ------")
         print(f"Student        : {self.student.name}")
         print(f"Course         : {self.course.course_name}")
+        print(f"Course Price   :  {self.course.price}")
         print(f"Enrollment Date: {self.enrollment_date}")
 
     @classmethod
     def get_total_enrollments(cls):
         return cls.total_enrollments
+    
